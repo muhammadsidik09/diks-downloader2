@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diks Downloader 2.0 Full HD</title>
+<meta name="description" content="Diks Downloader 2.0 Full HD - Unduh video Reels, TikTok, YouTube, Facebook langsung ke perangkat Anda dengan kualitas HD atau Normal. Cepat, aman, mudah!">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h1>Diks Downloader 2.0 Full HD</h1>
+  <p class="subtitle">Unduh video dari Instagram, TikTok, YouTube, dan Facebook langsung ke perangkat Anda!</p>
+
+  <div class="social-logos">
+    <img src="assets/instagram.png" alt="Instagram">
+    <img src="assets/tiktok.png" alt="TikTok">
+    <img src="assets/facebook.png" alt="Facebook">
+    <img src="assets/youtube.png" alt="YouTube">
+  </div>
+
+  <input type="text" id="videoUrl" placeholder="Masukkan URL video di sini...">
+
+  <div class="quality-options">
+    <label><input type="radio" name="quality" value="hd"> HD</label>
+    <label><input type="radio" name="quality" value="normal" checked> Normal</label>
+  </div>
+
+  <button id="downloadBtn" onclick="downloadVideo()">Download Video</button>
+
+  <div id="result"></div>
+  <p class="note">Catatan: Beberapa video mungkin tidak dapat diunduh karena kebijakan platform.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+  </html>
